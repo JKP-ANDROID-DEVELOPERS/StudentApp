@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_user"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abril_fatface"
+        android:text="User Login"
+        android:textAlignment="center"
+        android:textColor="#651FFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="User Name"
+        android:textColor="#651FFF" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/loginUserName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/acme"
+        android:textColor="#651FFF"
+        android:text="Password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text=""
+        android:id="@+id/loginUserPwd"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SignIn"
+                android:textColor="#F4F7F8"
+                android:fontFamily="@font/archivo_black"
+                android:background="#651FFF"
+                android:id="@+id/siginInBtn"/>
+
+            <Button
+                android:id="@+id/siginUpBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:background="#651FFF"
+                android:fontFamily="@font/archivo_black"
+                android:text="SignUp"
+                android:textColor="#F4F7F8" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

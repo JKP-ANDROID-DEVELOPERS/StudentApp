@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <array name="student_classes">
+        <item>-- Select Class --</item>
+        <item>First Class</item>
+        <item>2nd Class</item>
+        <item>3rd Class</item>
+        <item>4th Class</item>
+        <item>5th Class</item>
+        <item>6th Class</item>
+        <item>7th Class</item>
+        <item>8th Class</item>
+        <item>9th Class</item>
+        <item>10th Class</item>
+    </array>
+</resources>

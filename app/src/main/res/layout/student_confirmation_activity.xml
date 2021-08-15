@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#011003"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Confirm the Details"
+        android:textColor="#FF1744"
+        android:textSize="15dp"
+        android:textStyle="normal|bold" />
+<TableRow android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:textColor="#F0F8F2"
+        android:text="Name"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#F0F8F2"
+        android:text="---->"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#F0F8F2"
+        android:id="@+id/stName"
+        android:text=""/>
+
+</TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textColor="#F0F8F2"
+            android:text="Father Name"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#F0F8F2"
+            android:text="---->"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#F0F8F2"
+            android:id="@+id/stFName"
+            android:text=""/>
+
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textColor="#F0F8F2"
+            android:text="Mother Name"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#F0F8F2"
+            android:text="---->"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#F0F8F2"
+            android:id="@+id/stMName"
+            android:text=""/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textColor="#F0F8F2"
+            android:text="EMAIL Address"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#F0F8F2"
+            android:text="---->"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#F0F8F2"
+            android:id="@+id/stEmail"
+            android:text=""/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Password"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="---->"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/stPassword"
+            android:text=""/>
+
+    </TableRow>
+
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="AADHAR"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="---->"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/stAADHAR"
+            android:text=""/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Hobbies"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="---->"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/stHobbies"
+            android:text=""/>
+
+    </TableRow>
+
+
+<TableRow android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginRight="60dp"
+        android:textColor="#F0F8F2"
+        android:background="@color/colorPrimary"
+        android:id="@+id/confirmBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#F0F8F2"
+        android:text="Back"
+        android:id="@+id/backBtn"/>
+</TableRow>
+
+</TableLayout>
